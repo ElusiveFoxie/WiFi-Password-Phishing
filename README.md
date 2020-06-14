@@ -1,5 +1,5 @@
 # WiFi-Password-Phishing
-Simple PHP code for stealing WiFi passwords using evil twin attacks
+Simple PHP code for phishing WiFi passwords using evil twin attacks
 
 Attack Scenario:
 
