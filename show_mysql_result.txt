@@ -1,0 +1,2 @@
+USE password_db;
+SELECT * FROM password_table;

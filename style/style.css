@@ -1,0 +1,29 @@
+body {
+	background-image: url(../style/1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	text-align: center;
+	margin-top: 20%;
+	font-size: 190%;
+
+}
+.pass {
+	text-align: center;
+	width: 250px;
+	height: 30px;
+	border: 2px solid black;
+}
+.submit{
+	width: 120px;
+	height: 40px;
+	font-size: 20px;
+}
+.incorrect{
+	color: red;
+}
+
+
