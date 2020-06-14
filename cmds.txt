@@ -1,0 +1,8 @@
+CREATE USER 'fox'@'localhost' IDENTIFIED BY 'WiFiThief9876';
+GRANT ALL PRIVILEGES ON password_db.* TO 'fox'@'localhost';
+FLUSH privileges;
+CREATE DATABASE password_db;
+USE password_db;
+CREATE TABLE password_table (password VARCHAR(20));
+INSERT INTO password_table (password) values ('debug_purpose_pass1234');
+exit
